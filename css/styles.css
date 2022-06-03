@@ -1,6 +1,13 @@
 @import "reset.css";
 @import "variable.css";
+
+/* Component */
+@import "component/statusbar.css";
+
+/* Page */
 @import "page/login.css";
+@import "page/register.css";
+
 
 *{
     box-sizing: border-box;
