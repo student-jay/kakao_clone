@@ -1,0 +1,24 @@
+.profile-container{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin:20px;
+}
+
+.profile-container--myphoto{
+    width:100px;
+    height:100px;
+    background-color: lightgray;
+    border-radius: 30px;
+}
+
+.profile-container--users{
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    
+    width:70%;
+    
+}
