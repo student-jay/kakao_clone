@@ -1,0 +1,40 @@
+.main-header{
+    margin:80px 20px 0px 20px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-header--title{
+    width:60%;
+}
+
+.main-header--icons{
+    display:flex;
+    justify-content: flex-start;    
+}
+
+.main-header--icons i{
+    margin-right:20px;
+}
+
+.main-header--icons i:last-child{
+    margin-right:0px;
+}
+
+.main-header--notice{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+    width:100%;
+    background-color: rgba(0, 0, 0, 0.03);
+    
+    height:50px;
+    margin:10px 0 0 0;
+}
+
+.main-header--notice i{
+    margin:0 10px;
+    opacity: 0.2;
+}
