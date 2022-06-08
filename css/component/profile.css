@@ -9,7 +9,7 @@
 .profile-container--myphoto{
     width:100px;
     height:100px;
-    background-color: lightgray;
+    border:1px solid rgba(0, 0, 0, 0.1);
     border-radius: 30px;
 }
 
